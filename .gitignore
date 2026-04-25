@@ -1,0 +1,6 @@
+key/
+main.txt
+.terraform.lock.hcl
+.terraform/
+*.tfstate
+terraform.tfstate.d/
