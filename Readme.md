@@ -18,19 +18,8 @@ All resource names are prefixed with the workspace name (e.g., `dev-terra-server
 
 ## Project Structure
 
-```
-.
-├── main.tf              # Workspace config map + module calls
-├── variables.tf         # Root variables (AMI, instance type, key path)
-├── outputs.tf           # Surfaces all module outputs
-├── providers.tf         # AWS provider (us-west-2)
-├── terraform.tf         # Required providers & version
-├── Key/
-└── modules/
-    ├── ec2/             # Key pair, security group, EC2 instances
-    ├── s3/              # S3 buckets with public access block
-    └── dynamodb/        # DynamoDB tables (PAY_PER_REQUEST)
-```
+<img width="426" height="416" alt="image" src="https://github.com/user-attachments/assets/d7df4bae-5a47-4c34-8435-6c0e969e20c4" />
+
 
 ## How It Works
 
